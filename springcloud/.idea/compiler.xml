@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_1_api" />
+        <module name="springcloud_1_consumer_8020" />
+        <module name="springcloud_1_provider_8000" />
+        <module name="springcloud_config" />
+        <module name="springcloud_dashboard" />
+        <module name="springcloud_eureka_7000" />
+        <module name="springcloud_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_1_api" options="-parameters" />
+      <module name="springcloud_1_consumer_8020" options="-parameters" />
+      <module name="springcloud_1_provider_8000" options="-parameters" />
+      <module name="springcloud_config" options="-parameters" />
+      <module name="springcloud_dashboard" options="-parameters" />
+      <module name="springcloud_eureka_7000" options="-parameters" />
+      <module name="springcloud_zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
